@@ -1,0 +1,3 @@
+• The dataset consists of 292 training images and 73 test images, frames extracted from personal videos recorded (4 videos of length: ranges from 07 seconds to 49 seconds) from different windows over looking the UTU campus (from Natura 2nd floor, Feeniks library 2nd floor,and Student Disco Center) in winter conditions.
+
+• Bounding box annotations around pedestrians were generated using a pretrained “COCO” model through python scripting and manually reviewed and corrected in “labelme” thoroughly.

@@ -1,4 +1,4 @@
-cat <<EOF > tests/test_models.py
+import re
 import torch
 import torchvision
 from torchvision.models.detection import FasterRCNN_ResNet50_FPN_Weights, RetinaNet_ResNet50_FPN_Weights
@@ -31,4 +31,3 @@ def test_dummy_inference():
     output = model(dummy_img)
     assert len(output) > 0
     print("Dummy inference test passed!")
-EOF
